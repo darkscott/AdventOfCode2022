@@ -45,8 +45,8 @@ public sealed class Puzzle4 : Puzzle
 
     class ElfPair
     {
-        public ElfJob Elf1 { get; init; }
-        public ElfJob Elf2 { get; init; }
+        public required ElfJob Elf1 { get; init; }
+        public required ElfJob Elf2 { get; init; }
     }
 
     class Util
