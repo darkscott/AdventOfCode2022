@@ -5,7 +5,7 @@ using BenchmarkDotNet.Attributes;
 
 
 #if DEBUG
-IPuzzle puzzle = new Puzzle4();
+IPuzzle puzzle = new Puzzle5();
 puzzle.Run();
 #else
 BenchmarkRunner.Run<PuzzleRunner>();
